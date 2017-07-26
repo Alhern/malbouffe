@@ -1,0 +1,76 @@
+html {
+	height: 100%;
+}
+
+body {
+	background-image: url(https://res.cloudinary.com/takeout/image/upload/v1497387630/photo-1494587546596-02ba5ee8f96f_xfsawc.jpg);
+	background-position: center;
+	background-size: cover;
+	background-attachment: fixed;
+	color: white;
+}
+
+.glyphicon {
+    color: hotpink;
+}
+
+.navbar {
+	opacity: 0.8;
+	border-radius: 0;
+	border: none;
+}
+
+#content {
+	text-align: center;
+	padding-top: 25%;
+}
+
+h1, h3, .btn {
+	font-family: 'IM Fell DW Pica SC', serif;
+}
+
+h1 {
+	font-size: 5em;
+}
+
+h1, h3 {
+	text-shadow: 0 2px 2px rgba(0,0,0,0.6),
+				 0px 4px 12px rgba(0,0,0,0.1),
+			     0px 14px 22px rgba(0,0,0,0.1);
+			}
+
+hr {
+	width: 25em;
+	opacity: 0.8;
+	border-top: 1px solid #f8f8f8;
+	border-bottom: 1px solid rgba(0,0,0,0.2);
+}
+
+/*
+footer {
+    text-align: center;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.1);
+  padding: .55rem 0;
+  margin-top: 14px;
+  font-size: 0.7em;
+  text-transform: lowercase;
+  letter-spacing: 1px;
+  text-shadow: 0 2px 2px rgba(0,0,0,0.6),
+				 0px 4px 12px rgba(0,0,0,0.1),
+			     0px 14px 22px rgba(0,0,0,0.1);
+  position: fixed;
+  right: 0;
+  left: 0;
+  bottom: 0;
+}
+*/
+
+footer a {
+    color: hotpink;
+}
+
+footer a:hover{
+    color: lightpink;
+    text-decoration: none;
+}
